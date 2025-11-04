@@ -1,4 +1,4 @@
-const API_BASE = import.meta.env.VITE_API_BASE || '/api/posts'
+const API_BASE = 'https://facebookapp-react.onrender.com/api/posts'
 
 async function handleResponse(res) {
   const contentType = res.headers.get('content-type') || ''
