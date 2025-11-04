@@ -9,6 +9,8 @@ import {
 import PostList from './components/PostList'
 import PostForm from './components/PostForm'
 
+const API_URL = "https://facebookapp-react.onrender.com/api/posts";
+
 export default function App() {
   const [posts, setPosts] = useState([])
   const [loading, setLoading] = useState(false)
