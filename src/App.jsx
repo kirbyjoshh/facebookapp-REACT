@@ -9,8 +9,6 @@ import {
 import PostList from './components/PostList'
 import PostForm from './components/PostForm'
 
-const BASE = 'https://facebookapp-java-1.onrender.com'
-
 export default function App() {
   const [posts, setPosts] = useState([])
   const [loading, setLoading] = useState(false)
