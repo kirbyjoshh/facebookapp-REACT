@@ -1,4 +1,4 @@
-const API_BASE = 'https://facebookapp-java-1.onrender.com/api/posts'
+const API_BASE = 'https://facebookapp-java-1.onrender.com'
 
 async function handleResponse(res) {
   const contentType = res.headers.get('content-type') || ''
