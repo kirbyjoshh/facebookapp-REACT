@@ -44,7 +44,6 @@ export default function PostItem({ post, onEdit, onPatch, onDelete }) {
 
       <div className="post-actions">
         <button onClick={onEdit}>Edit</button>
-        <button onClick={handleLikeToggle}>{post.liked ? 'Unlike' : 'Like'}</button>
         <button onClick={onDelete} className="danger">Delete</button>
         <div className="muted">Modified: {new Date(post.modifiedAt).toLocaleString()}</div>
       </div>
