@@ -7,7 +7,7 @@ export default defineConfig({
     // dev proxy so client can call /api/posts without CORS in dev
     proxy: {
       '/api': {
-        target: 'http://localhost:8080',
+        target: 'https://facebookapp-java-1.onrender.com',
         changeOrigin: true,
         secure: false
       }
